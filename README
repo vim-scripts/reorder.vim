@@ -1,0 +1,7 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2598
+
+Supposing you have a list "foo, bar, and baz" in English where all of the elements are separated by commas and there's the word "and" or "or" before the last item in the list.
+
+The attached Reorder plugin works as follows: Select the list you want to reorder in visual mode (like "foo, bar, and baz") then run :Reorder 3,2,1 (or :'<,'>Reorder 3,2,1 --- the line numbers are ignored for your convenience, since Vim puts them in anyway), and watch Vim reorder your list to "baz, bar, and foo".
+
+Requires Ruby support, and the facets gem installed.
